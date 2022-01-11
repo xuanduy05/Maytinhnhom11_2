@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Maytinhnhom11_2</string>
+    <string name="m_y_t_nh_b_t_i">Máy tính bỏ túi</string>
+    <string name="nh_p_v_o_s_th_1">Nhập vào số thứ 1</string>
+    <string name="nh_p_v_o_s_th_2">Nhập vào số thứ 2</string>
+    <string name="k_t_qu">Kết quả</string>
+    <string name="onclick">(+) Onclick</string>
+</resources>
