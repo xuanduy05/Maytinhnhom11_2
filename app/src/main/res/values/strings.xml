@@ -5,4 +5,7 @@
     <string name="nh_p_v_o_s_th_2">Nhập vào số thứ 2</string>
     <string name="k_t_qu">Kết quả</string>
     <string name="onclick">(+) Onclick</string>
+    <string name="onclickChia">(/) OnClick</string>
+    <string name="onclickTru">(-) Onclick</string>
+    <string name="onclickNhan">(*) Onclick</string>
 </resources>

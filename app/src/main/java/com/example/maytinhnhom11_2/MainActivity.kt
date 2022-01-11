@@ -13,9 +13,39 @@ class MainActivity : AppCompatActivity() {
         btnCong.setOnClickListener {
             val so1: TextView = findViewById(R.id.etNumber1)
             val so2: TextView = findViewById(R.id.etNumber2)
-            var a = so1.toString().toDouble()
-            var b = so2.toString().toDouble()
+            var a = so1.text.toString().toDouble()
+            var b = so2.text.toString().toDouble()
             var c = a+b
+            val resultText :TextView = findViewById(R.id.tvThongBao)
+            resultText.text = c.toString()
+        }
+        val btnTru : Button = findViewById(R.id.btnSub)
+        btnTru.setOnClickListener {
+            val so1: TextView = findViewById(R.id.etNumber1)
+            val so2: TextView = findViewById(R.id.etNumber2)
+            var a = so1.text.toString().toDouble()
+            var b = so2.text.toString().toDouble()
+            var c = a-b
+            val resultText :TextView = findViewById(R.id.tvThongBao)
+            resultText.text = c.toString()
+        }
+        val btnNhan : Button =findViewById(R.id.btnMul)
+        btnNhan.setOnClickListener {
+            val so1: TextView = findViewById(R.id.etNumber1)
+            val so2: TextView = findViewById(R.id.etNumber2)
+            var a = so1.text.toString().toDouble()
+            var b = so2.text.toString().toDouble()
+            var c = a*b
+            val resultText :TextView = findViewById(R.id.tvThongBao)
+            resultText.text = c.toString()
+        }
+        val btnChia : Button = findViewById(R.id.btnDiv)
+        btnChia.setOnClickListener {
+            val so1: TextView = findViewById(R.id.etNumber1)
+            val so2: TextView = findViewById(R.id.etNumber2)
+            var a = so1.text.toString().toDouble()
+            var b = so2.text.toString().toDouble()
+            var c = a/b
             val resultText :TextView = findViewById(R.id.tvThongBao)
             resultText.text = c.toString()
         }
